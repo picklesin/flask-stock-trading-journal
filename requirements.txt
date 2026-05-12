@@ -1,0 +1,17 @@
+alembic
+bcrypt
+Flask
+Flask-Bcrypt
+Flask-Login
+Flask-Mail
+Flask-Migrate
+Flask-SQLAlchemy
+Flask-WTF
+itsdangerous
+Jinja2
+numpy
+SQLAlchemy
+Werkzeug
+WTForms
+pytest
+pytest-flask
