@@ -6,7 +6,7 @@ Tradefy is a web application built with Flask that helps traders track, review, 
 The application includes secure authentication, trade logging, performance tracking, and dashboard analytics to help users improve trading discipline and decision-making.
 
 ## Testing
-For testing, keep "TESTING" and "MAIL_SUPRESS_SEND" as "True", else "False".
+For testing, keep "TESTING" and "MAIL_SUPRESS_SEND" as "True" in config.py, else "False".
 
 ---
 
