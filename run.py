@@ -1,6 +1,6 @@
 from app import create_app
 
-
+# source venv/bin/activate
 app = create_app()
 
 
