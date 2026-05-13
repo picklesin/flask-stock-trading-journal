@@ -39,7 +39,7 @@ For testing, keep "TESTING" and "MAIL_SUPRESS_SEND" as "True" in config.py, else
 - Flask-Mail
 
 ### Database
-- SQLite / PostgreSQL
+- SQLite
 
 ### Frontend
 - HTML
