@@ -1,123 +1,54 @@
-# Trading Journal — Flask Web Application
+Flask Trading Journal
+A full-stack web application for traders to log, review, and analyze their trades in one place.
+Overview
+Tradefy helps traders build discipline and improve performance by tracking trade history and visualizing key metrics — including cumulative P&L, win rate, and average win vs. loss — through an interactive dashboard.
+Features
 
-## Overview
+User authentication and account management
+Secure password hashing with Flask-Bcrypt
+Login session management with Flask-Login
+Trade entry and trade history tracking
+Interactive dashboard with cumulative P&L, win rate, and avg win/loss charts
+Form validation with WTForms
+Password reset via email
+Database integration with SQLAlchemy
+Database migrations with Flask-Migrate
+CSRF protection with Flask-WTF
 
-Tradefy is a web application built with Flask that helps traders track, review, and analyze their trades in one place. 
-The application includes secure authentication, trade logging, performance tracking, and dashboard analytics to help users improve trading discipline and decision-making.
+Tech Stack
+Backend: Python, Flask, SQLAlchemy, Flask-Login, Flask-WTF, Flask-Bcrypt, Flask-Migrate, Flask-Mail
+Frontend: HTML, CSS, Jinja2, Chart.js
+Database: SQLite
+Installation
 
-## Testing
-For testing, keep "TESTING" and "MAIL_SUPRESS_SEND" as "True" in config.py, else "False".
+Clone the repo and navigate into it:
 
----
-
-## Features
-
-- User authentication and account management
-- Secure password hashing with Flask-Bcrypt
-- Login session management with Flask-Login
-- Trade entry and trade history tracking
-- Dashboard analytics and statistics
-- Form validation with WTForms
-- Email support password resets
-- Database integration with SQLAlchemy
-- Database migrations using Flask-Migrate
-- Responsive Flask templates
-
----
-
-
-## Tech Stack
-
-### Backend
-- Python
-- Flask
-- SQLAlchemy
-- Flask-Login
-- Flask-WTF
-- Flask-Bcrypt
-- Flask-Migrate
-- Flask-Mail
-
-### Database
-- SQLite(Swap to PostgreSQL for production)
-
-### Frontend
-- HTML
-- CSS
-- Jinja2 Templates
-- Chart.js
-
-### Additional Libraries
-- NumPy
-- itsdangerous
-
----
-
-## Installation
-
-### 1. Clone the Repository
-
-```bash
 git clone https://github.com/picklesin/flask-stock-trading-journal.git
-cd trading-journal
-```
+cd flask-stock-trading-journal
 
-### 2. Create a Virtual Environment
+Create and activate a virtual environment:
 
-```bash
 python -m venv venv
-```
+source venv/bin/activate  # Windows: venv\Scripts\activate
 
-Activate the environment:
+Install dependencies:
 
-#### Windows
-```bash
-venv\Scripts\activate
-```
-
-#### macOS/Linux
-```bash
-source venv/bin/activate
-```
-
-### 3. Install Dependencies
-
-```bash
 pip install -r requirements.txt
-```
 
-### 4. Run Database Migrations
+Run database migrations:
 
-```bash
-flask db init migrate
 flask db upgrade
-```
 
-### 5. Start the Application
+Start the app:
 
-```bash
 flask run
-```
 
----
+Note: For testing, set TESTING = True and MAIL_SUPPRESS_SEND = True in config.py.
 
+Future Improvements
 
-## Security Features
-
-- Password hashing with Flask-Bcrypt
-- Session authentication
-- CSRF protection with Flask-WTF
-- Secure token generation with itsdangerous
-
----
-
-## Future Improvements
-
-- Trade performance charts
-- CSV import/export
-- Risk management metrics
-- Advanced filtering and search
-- Mobile optimization
-- Broker API integration
-
----
+CSV import/export
+Risk management metrics (R-multiple, max drawdown)
+Advanced filtering and search
+Mobile optimization
+Broker API integration
