@@ -1,12 +1,10 @@
-Sure! Here's the updated README in the same format:
-
 ---
 
 # Trading Journal — Flask Web Application
 
 ## Overview
 
-Tradefy is a web application built with Flask that helps traders track, review, and analyze their trades in one place.
+This trading journal is a web application built with Flask that helps traders track, review, and analyze their trades in one place.
 The application includes secure authentication, trade logging, performance tracking, and an interactive dashboard to help users improve trading discipline and decision-making.
 
 ---
@@ -127,4 +125,3 @@ flask run
 
 ---
 
-Just copy this into your `README.md`, save, and push it up.
