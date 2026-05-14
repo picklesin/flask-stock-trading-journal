@@ -45,6 +45,7 @@ For testing, keep "TESTING" and "MAIL_SUPRESS_SEND" as "True" in config.py, else
 - HTML
 - CSS
 - Jinja2 Templates
+- Chart.js
 
 ### Additional Libraries
 - NumPy
