@@ -1,8 +1,11 @@
 Flask Trading Journal
 A full-stack web application for traders to log, review, and analyze their trades in one place.
-Overview
-Tradefy helps traders build discipline and improve performance by tracking trade history and visualizing key metrics — including cumulative P&L, win rate, and average win vs. loss — through an interactive dashboard.
-Features
+
+## Overview
+This trading journal helps traders build discipline and improve performance by tracking trade history and visualizing key metrics — including cumulative P&L, win rate, and average win vs. loss — through an interactive dashboard.
+---
+
+## Features
 
 User authentication and account management
 Secure password hashing with Flask-Bcrypt
@@ -14,12 +17,13 @@ Password reset via email
 Database integration with SQLAlchemy
 Database migrations with Flask-Migrate
 CSRF protection with Flask-WTF
-
-Tech Stack
+---
+## Tech Stack
 Backend: Python, Flask, SQLAlchemy, Flask-Login, Flask-WTF, Flask-Bcrypt, Flask-Migrate, Flask-Mail
 Frontend: HTML, CSS, Jinja2, Chart.js
 Database: SQLite
-Installation
+---
+## Installation
 
 Clone the repo and navigate into it:
 
